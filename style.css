@@ -1,0 +1,151 @@
+.body {
+    margin: 0;
+    font-size: 1px;
+    font-family: Montserrat,sans-serif;
+    color: #222;
+	display: block;
+    margin: 8px;
+}
+.page {
+    background: #fff;
+    min-width: 100%;
+	
+}	
+.header_top {
+    height: 40px;
+    background: #222;
+    font-weight: 700;
+    cursor: pointer;
+    display: block;
+    font-size:  100%;
+}
+
+.header__top-description {
+    margin-left: 8px;
+    line-height: 40px;
+    display: inline-table;
+	color: #fff;
+	margin-left: 5%;
+	text-decoration: none;
+	float: center;
+	 
+}	
+
+.logo-line {
+   image-rendering: optimizeSpeed;
+   text-align: center;
+   padding-bottom: 20px;
+   padding-top: 20px
+}
+   
+.menu {  
+	height: 20px;  
+    background-color: #eee;
+    color: white;
+    padding: 10px;
+    text-align: left;
+	float: center;
+}
+.menu_item {
+	color: #222;
+	font-size: 100%;
+	font-weight: 700;
+	margin-left: 5%;
+	text-decoration: none;
+	 
+}
+
+
+ .lines {
+	display: flex;
+	flex-flow: wrap;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #fff;
+	height: 800;
+    margin-top: 1%;
+ }
+.line {
+	background-color: #eee;
+	width: 48%;
+	margin: 1px;
+	padding: 5px;
+	text-align: center;
+ 
+}
+
+.frame{
+    width: 500px;
+	height: 150px;  
+	border-top: 5px solid #fff;
+    border-left:5px solid #fff;
+    border-right:5px solid #fff;
+	border-bottom :5px solid #fff;
+    border-radius: 10px; 
+	border-color:#2F4F4F;
+    background-color: #696969;
+    color: #FF0000;
+    padding: 5px;
+    text-align: center;
+	float: center;
+	margin-left: 27%;
+}
+
+@media screen and (min-width: 100px) and (max-width: 1028px) {
+	.lines {
+		display: flex;
+		flex-flow: column;
+		justify-content: space-between;
+		align-items: flex-end;
+		height: 1700;
+	}
+    .line {
+		width: 100%;
+		text-align: center;
+}
+.header_top {
+    height: 120px;
+    background: #222;
+    font-weight: 700;
+    cursor: pointer;
+    display: block;
+    font-size:  100%;
+	 
+}
+.frame{
+    width: 280px;
+	height: 150px;  
+	border-top: 5px solid #fff;
+    border-left:5px solid #fff;
+    border-right:5px solid #fff;
+	border-bottom :5px solid #fff;
+    border-radius: 10px; 
+	border-color:#2F4F4F;
+    background-color: #696969;
+    color: #FF0000;
+    padding: 5px;
+    text-align: center;
+	margin-left: 0px;
+	float: center;
+}
+}
+	
+
+ 
+
+form {
+    display: block;
+     
+}
+
+
+
+
+
+
+
+
+.contact {
+	font-size: 50%;
+	margin-left: 5%;
+}
